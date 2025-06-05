@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IcyCo Ice Cream</title>
+
+    <!-- custom style sheets -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mediaQueries.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+
+    <!-- link to add favicon -->
+    <link rel="icon" href="./images/logo.png" type="image/png">
+
+    <!-- font awesome icons script -->
+    <script src="https://kit.fontawesome.com/c732ec9339.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- nav bar -->
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt3f555c029f6d5e66/679164e781dcb151cd60b98d/facts-about-ice-cream-ice-cream-sundae.jpeg?q=70&width=3840&auto=webp" alt="icyco-logo" height="25px" width="25px">
+                <a href="">IcyCo</a>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="link active">home</a>
+                <a href="#services" class="link">services</a>
+                <a href="#about" class="link">about</a>
+                <a href="#contact" class="link">contact</a>
+            </div>
+        </div>
+
+        <!-- Hero -->
+        <section class="home" id="home">
+            <div class="text">
+                <h1>Scoop into Happiness, Anytime, Anywhere!</h1>
+                <h4>Welcome to the frozen feast, where the world of frozen delights comes alive! Get ready to embark on
+                    a mouthwatering journey through a virtual ice cream paradise. Whether you’re craving a cozy in-store
+                    treat, delivery to your doorstep, or a custom ice cream experience at your next event, we’re here to
+                    serve you the sweetest moments, wherever you are.</h4>
+            </div>
+            <div class="image">
+                <img src="https://funcakes.com/content/uploads/2023/06/Ice-cream-recipe-960x540-c-default.jpg" alt="">
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services" id="services">
+            <h1>What <span>we do?</span></h1>
+            <div class="services-card-wrapper">
+                <div class="service-card">
+                    <div>
+                        <h2>Dine-In</h2>
+                        <h3>Chill With Us – Indulge In-Store</h3>
+                        <img src="https://cdn.cdnparenting.com/articles/2019/02/08102541/1049230460-H-1024x700.webp" height="150px" width="150px">
+                        <p>Whether you're enjoying a family outing, a date, or a treat just for yourself, our dine-in
+                            experience is the perfect way to savor handcrafted scoops, decadent sundaes, and custom
+                            creations.</p>
+                        <button>Find the nearest store to you <i class="fa fa-arrow-right"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div>
+                        <h2>Island-Wide Delivery</h2>
+                        <h3>Ice Cream On the Go – Delivered to Your Door</h3>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASsAAACoCAMAAACPKThEAAABWVBMVEX/4L////8+Pj64+OPue2r/37z/4cC1+OL/5cPueWj/5sTtcl+6+OTud2XtdGL/6dP/+PHD+ef/7t3//Pn/w6Dc+/H/yKf/68j/48b/8OH/9u3vg3PH+emci3v/4sT/5szR+u2Ed2vxlIaynoqkkoAAAADu/fgzMzPg+/KPgHJ4bWO3oo319fXW++/74d1tZFzx1LXErZbjyKzzo5f/zq3wjH34ycIxNDfYvqT98O785+PymYy1trX3w7xQTElcVlH1s6nX2NcpKCj0raNFREN1dXPp6un51dD/1bvJyciSkpGDhIOx7dmOtql3lYrwalfA6NOsrKshKS/kybbm1LsbHh/Tx7zd8eFiWE5lZmPAsa7V4MrsuqH+1sHi3NGAZlzarJP4rZSafG/Amoae08IiCQ9sgHklHB+Fq54kAA+Xx7c9MDRUW1icnZxgbmkkGByy0sfLzbYVICnVqjWWAAAbBElEQVR4nO1d+0Pa2LYmBLLBBDAiVE1QXgVEXvIQ5I0iVGurzhzbetszt7d1OnOq7Zw5//8Pd62dAOEpWFtJD19by5vkc61vf2vtncRgWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEFFljgO8Jsfuwt0AvMWysrmxPY4jgO2AQYLPR/A/fjtm2+YN5cZgCO0WQhTdls9tnWr682NkpSe8Wx4kgZuP/CODQbtra2GAVrI/af48xZ9z9WNpxOpnkZc9rtFXzl8cGriXH4zVsFobu5tkn/nxeYzVtOpov1LcPApnGG7Gp2RSZefPr2iCnytj360gYTIa8d32lPzGbHBt0s5/L69/qOWWHecqwz/ejLQ2Tq2QY8Ksrq00WeTyi3QoSEGKfD8vDCZeb6Nsq5NQ9kbTqZISz3NgyYcruRqZZmw3mTekskLvhZfjMqb78J5pXBbRqjoz8S5uVhqpiN7nZxZndWOkSqnmrI2mszTAzvR0JUt562Nh52owwjtmrrQb/iXthcWV9fX+lhfX1jpUcVpJ8zgZHXeD6w6VdPY93bcMv5raFl1mBrRKxrg/3RYB5G5ymgyjFiqymOvww8sHL/fYGvXHOsrG9sLC9vbKwMyWcnsOaArPFwr8Jmf2nAdu6rYs6IoeGdqJzR/Fy/576YN1dGCcEQ1jc3N795PPxefLtXN1CoyjDyWSVle0NEANtQ1u6Cs8Tz+3gj8vp+XzMmjEZi+RuiFyu4LYdjyBJNAjflCE+pYlpXEFU2XjFUTJwQiLRjelsNNb/dXqc3BHKfyBo1Dk/Cxn3JMm+uq1+1PG02Y0lnsUzx4uzqeUSNHJO9BP8dK1x1kjBzRqOpzvMZej9E2HtolnljNqow1e+ViH0uZLrt5LLuZ/9zUV65K7ZA1t8SEldY4TEDy9Q1CB2u2jxfpFzZKsoDMgGvmrbMuAdbzKxwLm+szPYl9Iv6fyfTRBb4pXfNo5PL29+WJr6ae7b6T5mgOEEGnkkYvCcHeCekxhqTs5U03w0xF0EWw6npLbzZzG3NolVavmaNrMHwdZq5uxtQbrexfHTRMIaPJxthd7b7ufuHNM9bDe2XJfizYu9e7Kn6ZOu3KQPLPO3oNxKzipZ55O9kY2J0cdns/5avwgdHraOnFxO+EDIQPr18PH5rE3xRe1elilmW3k0VWGbHLERB2m0ojtkB2JppJFO+bRznE9okZvf7qy9hozHcbJUvjzbGSTxnXv0nfFLtZNL2j3xU4jPTBNZQSihYVjhZVzihtGxtKU2ZEU55emyO3w3HuI+kYWWkCJdbzWZjXGPPvYpUxGKjPv14QrTtg32YZowxO1RGgIq1zU1uZPXwULbRbJ5kS5ahXFgZ0bPk3O7mRVgh6+B57OjyeKQjAmHvBK2g8qNhrXnQ/2XewW+fZh8flo2J38NNk+4jfsHu98+fq1wZw9VW+enJxgh5AUr9h9Q8xRWHELu86n1sJ65aintnaVvmju99JJgNjvUpre6wzGffN5vGLsLHLePt8GAAvuL/7HZa1IiqmzpRlKuvFvxyicEmskT7ID4084D+vTB69BsN55DKc+b3xnyPrIOT2NFBYzAOwK76eZ7WLUTUfl5I6FICz7aw0RAhJKJ5xTF6B9ccdJoQw/3CiRiyBZwh+0FDVrgaKz+9GOwMgbdyOhVy+iJJ7HJVP1OLQUHNwESdJm35eYzxkrfzEVjmmahinMNqZDG/q2lDC/LwaFnbqAPDMMaOkB5X/KF6SyHTz9t5XnkA3P7rOeFqqlITnMrG+srW6G7PQGgdnDBHzZbGPEAKBhujuerWzXu8v+8ZiTeVlEgLYVJuTrkzuH3fcTCEGmpFMSZba1tbjkFsadzK2M8A1Wr22Apfxcoa88CBubrsmFCaibl6f1y10LVLXZ7KSOx+9y7SOdU8gnltfRlS3bnx4BMb2i/pEXFP98aZ3yU1ZIUbLeOJmq7cM3c2oYZV7Ck22etnaiOBkak2naB/sNo6juv46bC7n6JBZN7quZ75MRmjwHH9efiFeX4bwx3E/kJvn9FKFXm+xTQ0XvQK/VUi072vmd/pYWLXD36n/cP5fbvPPwhcn8QfXDHlPJoHsKEDe32I7qHZ6xprR8ZQXGbGYHxkmddWVtYGZHcOJv8moV/iw03Iw4sN4Co7uNe0MuzeEzSWy0sIC/89b4wia2P0vLq6wmTwO+abK8w3rTE9uGCOjpaXsquTq6c46ZAVEgh2QpnYSV8WOis5W53Zz7Rx4qWfAlzKMaYPuv7dJlgeCJzB7dOQdcSUm60tx3IoLgqsTO14iBlqNYTEDldivJuPzr165rBegT9+XpKsdpNdKvGZhLY/ZDZvTfQ78y3wVOI/9kIL87BZhqqFXF+z8FOAwCG/18ojduy4n8KEibcB7Ha7zWqSTCaTzWSy2m18rt2R7Sm6oI/Mxd3gDFr3gHn4PMS++P0TYWWBBZw2P31WZygolHSLhfsmndu81dQH26HJZE/kTFa+tE/Xc41cNdGJSdriW77HfMOPBoZWfx5WY5/++JNlici+OAW2ZAgxYcRksyaqeKBHkrRkWdV/EGAVOshRn9zpda6p/T3Dfbzho6LPPYSNrVbz+OQlcYnC6b9eUq5efhaEoYZeD3u8Jp5ypgHk+BLNQyRDN5SMB0j8h3BfHn6Bqo4lL28gvFjx00GTFYgQGc1UMcObeiFlU6LKL1lzGasaYfacc8695vQAqlbfXlfDmjy8uAJDIFRvPgNXL29uXoB4QSK6IkOp2PbzNqBmMJiUFLTZJNuhhAT+LGQBVe5zwgqfumSFq61WteElqFbk9F/hW4ElLpmIInnRPybu5xRRH1B2k1PCYdCe2fNbISdLEGbOOTfm0wEnok8JsCK81ORhmTkC8wAPeoU/bzETBRwVyae+Mjlhx5TrKlRPquw2O5+rLDMVu8mUsQKTfHvaNs08A6kyooSz7IseV8aD58wFmAcCqcd2ALdeftUqlX0w9TDEwGXxptLePkRdBqMO/krY1JmHVXn3hjpSr67eHFxTLq5vwrdGTR42ai0RbBaRlagiIRFuaBResirUIHgVYNcP9+iEdOLQbvdDUGUkGzhSZv59+XiYzY6VFceGM5E4v1aoYoW/XgqntzeaPLw6jkNkeWEsFNhTVC9B7M1E1IEZkx8Km702IAHY7zT89tuHYOSt1lIOBN5uwoZpUWJ0ekCKuTPFUUx4e0lGtfzPG00efjkJEVZ5ASZqnLAi623R+sZZqmgXNDj394uJRLu9VzksmXgYHE22utXmt/Em2iis8Hzl3ovMHg1963z3E6+JSlIXPfeAeXgE5oGVwcL/9YnFCANnetDUDoWJvcOSXzJ1shArQhj3FIXnpRJNv3aOB91yPvauzwizYWXZ6exOxSaKSNWn36+1ZLGfNHkYO2rI+JrPYLIgBeHWzU1YLZyLeyBGPO+3WnumwWqlRTSylqu38Yv2KxJqvGSr6Eyx+mcXaQaSTzfhT6yo8gTKxAqfm9o8/OJSslAppln2zxeU5rqJx64Cek6q7dhkgCHPX8oc1vfaxX1FuOoSb4cXZWz2XHHuG3paDFT7zkQLWXgBYdSXhRBExpteHh7TPOyB4PRp5QwlyQ4DXy5Tr4C0F/f3+z672K5nJIVN4JM37TFOZu2xCZgFmzhdhodG0GX3xbZMJR2YedHH1Yub2883XdUqx56jeUCWQoLSePg1YzeBbGcqCQ1BTlB3FPf6YSkH8s7bbGitwFaAMVVWMeur0ulrgqymKAPC15sq2w8wCKdfw5o8PHaR09uXRMBchYpHAibqnaMD9tt79QzIudVOE9Hk7wSTlSanlNnrEKpbP8plV8+V1Pr8UmBH4KvGlx5/iRgPvqKeYXi9Pcu0lbGhkpEoQzabKuooWiheQFeulKnvFbvjCNzQ20jYg9vdVSHKFYnj/Wss/2Sk5Ba7WZ3xsHXSqCqidnp9+qpIx7eSHTmhOcabJAlUvV5BZ4raNWrVU6U9JwtoZgWEVfq0Q5YyCuI98vWvr6rPujE2X9508zD25dhLBOoZ/mox+3s5HN8g7cC6V2DUG+JmmKzDM725hg7c7rfe16Hh5Pv08rM6GFb/qIrXzXAvD8shkHihaWwuQ61HifJXEkOUjMGe5D+r6EvcVXBut0hwpm+UUHVwjUnXNaaQh1+A29O/jElawvDS3rRH0jjbGRgMSgmdDYQKOPPqP4gY8RKZEcjpCzKWrk+315+NvcW4F604uSZ/81Yrry4hUnLNCaVO5TBT8oNmZRKgWVSyAPvwRD3Hw7gJ1U77UH8lYXcMjISIlwk1LlxYxijtBpwWFLtdq9Nw+C/h9CuGVvjg4BLyEMwDeeUv5XpM7e8dop3CsVAZDCVeKQ7xAf7sDJ1WZm8ZisKzjA5NAw0rJCYiE8HriscjIZnc/o4TXV6lpR7BaVQi/Pvq9hr+//Pmj+pFo3H8/I9yq9w6zym9A/TmlTpaLdCuTK8ktGVstgw1WBIOjBXsZ7UzVnBk7aL+AqtrrYgM7oBOL8dD/659ZcVQBGchiBxiQnFvPC6fu2TRK4vn56huQORxI3Ry1q7zuSKzDET5aZtKnQzMSeggILTgAcpcriSB4/K3iyU77TZbc2eH8z+73A884UJfAYhdT/hxTURWyT6CfRgixyE5u7aCrjmG9HyfYSTQq1wmU8pJ/j38SVswh3vFRD2Xy/kzuZzUm86hw2UOe6gmW9t/VnQ89t7PBHd2xeF4TSgmDYOs1yt7NXfFUAheTzLSoU1prNMmQ64zJQGWVMpkoP6DIrBvDro7z2PL1Pm2riZ01NVoVJdcE8nC+VRWwyh23sm5BHWzCQo9++BMF/JH81FSJy1yg6+Q/Ly+fAPXt8Kq221BRghhhc49lSEiu1zxXkuGvMWhzm6ttBPt0qh5HAyfeoU+Yy3lelOHWEdDOvr11WyAQVDb8aM8gBC5MNC8RAxRXlygTijn6qIPehu9a4u32qRMRWkcZHgNQ1aw8laeZqfkVJ6QQNdyCqFWqb0PQ2YJPIaumlgG7epZhoGoEbydyXdBoE5enawJaebkI3EvvKpk6x4EwOBS0k7Y2PjSXtHpLB5SljCu6MoGa5FpQxSabNJ+x7fqy2Jx2cHlsxriRIbQMW809jvHzKtoSzxtNNgOO3M6uL5Iytis/jaQZccWn7Piz2V61ZC+ymduwpLQCMEcHLMkBvZbqgw8kqhnMn0FNAySkHs2Z5E3WSVmGPqaqx8QrD6EaBNr3LPTIGG35kDeGSbH8+3hp/WVgugano3dVVaQydgUnAaQpkUJjxt31gdjEKGvFJwsWFDykLEpOA7aHHTa7e3uqcSG8dj7PitAsMaung4RMmG542i4JK3gg0zZMuNeqrcUNBjGHiB4L4RkV8bUm/sCtz5KqBToLQUBEwRrdqqw4n511qUnwQ8cW6iF/tbKQBI+HFVCBMxr/K2t61H3x/fg9ZeCEwVrVnhZwUVEmbAl6e72u66aDCoeTrAE2YVzZUKckF/5Oyd19JeChocTLJGIhIXKOiIAW7/x9cmv1l8H2fBwgiULES+JI2GERAhxlXKTX6/HHOSePYhgeVmRFSGwiAyU4XF03oJpf+I79BhZDyJYLiJEIAOBI+wMEiJ7Wbl+RxrqcPnHpJJwWoRkuhACCIPCiBUjcUjFv8dbqw5ZutN3EKwZT1U5giqZ9uO9AhUrUYDbv06m6uokpoNDmwcxu2AlBgxBiMhyRBBFOQ43BC9Ojt0ZVeFwuKFHQ9rfSL4LIfHvs36yvCKRBULnp2UvSDwMh3/fMQoeH+Dpa/Q1O4EYcW6BCYiAcv/WR5YXaaLL29Czg2e4myoGTxRoPGjM+0mghzCTYAEx4Mu1kSUSgR6jIwBj8FwcyLyTKuaKLrdpxvQ2GHLm1WlPOgbKhMfUi6TdJQtCyYUWVCZCHKdYiTAFVcyBsurtSH9ZOK1ghRT3BNR0IytEBC+BP3ER51rp01NQ1ThQ13E1dDdDMZ1ghZAj2YuuAFhRyPKCA3UREc/7QcQ4/fd21JTNADonoDTe6s2/TydYISCKxL0srl5zEVZ+BWRFMCdxdZuXuCAPBXk6qpjuwYk4FuoqsKYRrJAoRFgMLMGF5gDEPPL32W90PQhL7QLrkjGw3k7RumJiveOpj/QWWHcLVoguvxJcaM1B2yMuURSEv88hHb0RWXAJES9LLftb0zRD6vFB76DXls4mdIbPdDUEUWaBDjEClHlZKGLwVDNxmUSwWMZFpbKIXYbfpqKKOekdTh0u66w9M41geWWUblYQZQEIkwUW6mSCBy9F6CFy2Gcgb63TGTXNsdTNC51VOpOm6rsAbxUnoguKGDwoFVdK0mVaxCuzctyLzuq3OzpWHbS6KRhWrrQzJ/2GKU9mM43DCsEoSBffEqrwkJCiHImAbglUyyCqpqOKKXdTUD0EeB6ScG3L4aDnQMcTAnGao+AGXzhpql5DliCKXjEScaFTAIXC2k9Z7w335HN+SqqYo4PwAUXnfJxz492BMDycUjmogZ6Y1eHY2uw/UdCktUVaiDASIlEuAYQdCj8v3BXAWsVJ5Nw+LVXDmCPBUoOJA9bwEl0KbXgxgvXugWnTNpK9Iq6RhBT0YmUjegkbgWoabMRbW/Hud6uIDZ04/zHZGYdeDm7SM912F2xO3Uh2gVGgZ7RQliWTuCDjkuTXM1DVeHr5dODqafO/cFSjW9MJFiJE6CkvRHBbLuXwE7Cp52fTU0XjaiCw5kHcp8a0gsXQk64S1HgYCdFpQS1NzvlZqBqBH7lmZtTVLO5G3yfMMPMlYijBIIjiRUC4XtumPsxyDH7gQOjYwPMGLC93L5eyjP8QGx2sd9C5DiM9taCmxJ9l5kumJQ79AZ70tf1bqfqh5fNgnHDc5ubmGvxdW8PTlXdOWI4nZFCuV9khrveOmabq44R14SQzBJXr/O51HnPF1TSYnIYzri0KESHuInEoeh6Cqrnj6g7MOFUfwv4e4LVt7CLHn5ermafqsbEQObU/BFVzxdXd4+A91hbJRH49fums/rjiUOVHXIuic0WK3ivNeDm4WKxxPPLCXSPhFa1730zTMeJV4fEo6sKxvoIF4DhofE32XbNavQIMXn94AkIPEFX4lVe1qmEOelhT29Gs+4Pv6Oiq1rz99v2fBeULQDA4D1xNjWz2w4dy+fi4MfL6Gt8NrZMvgGBAT1QZ3O/zedp/G7yA+nfG89vbarW6PeN1aB8XnKHw/tdWa/Q1Gb8z1i26Cit6pnuHs1NFNhDKkBhrqFi+G87Oz1YL3qBmM7ZgWvBbUCrVTo2qKU911ZFR0e3Ir76j2aiMiLFLpTfus4waHCwqOA7upFKpdDpdKLz/iO94qlzIsXUZRlzuLFm4KXyevsDBkJhX1mV8KSszVEmjMV9ASQG/xlFuDAbgpbC7Ewh6PNsKPB5PMBDY2dn9+BFPtBk+YWK3FzjJ3Kzi+7c9wZ3ddMpA36+znBsLzu1Wl2WUL5u4BC/ZjFaNtSXL0hJnSCE/yEoQ9ryQTqdSBsuTHpYAluy7PJB10GK+XB4xzFHU6GvW8r4lJHcniKQGCinL0k/Bl9n9MV9rGg8gpMLHTCy/bdxuRvPbux5gLJ+vJn00hJAv+ANR5ekgiGG1u7vz0ZevVTEsW1ctpmH0VaNRYz5FaaQxlUrvBn2+nbTO6cIMM2c/5GvJN+o859WbZDIJO79bKGAQKSkEO4kZuAsZuN3JwG0l2oJBz4dmLZlsHilqZdzOB2vJfBJegjloUN4OSZwORD2pJZ2yxeGvHLLkg69pTCbfHNBR8KjqM0JA5dOQXiBSQBDy4/NFk9Fo1OfrRhSEFGoVqNXOx4/w9mqVniq5AVR5ar58fje19ATeHUDKIAMtqHtLqW1fSlfGSgW3lNqB/QD1zWar+WjNaLxqtMrNqo+GhaewAxGEOQc8KVByb3vbRx8B5qIQgDX6zwjZCmNDufw87DP6kttGY2C71kwGChwwzqV2Pb4gjSj4zmRaf5FlKUQ9BQP9fWfdVRz4QJ0PwsYaUBXNJ2GE2wkEtpPJKOYbMOOL0rxTmIMgS1Io/9WMb+gZp8EpVPO+qM+YN/og/zzJ3e0gla0lS9oTTWNEWVJJ3QUWt+vjljgqJEvPsm+M1e7qjEA1mW96dgu7tWQw4KE00UiKJmtQmzSrtVoyCmoPSQj5Byik37+rGrtn5/ZAhOZ3QNyCxmqyCWODYh0MSwbf7hLHLRWiOuRqGxxTWlHrD7Xu+qiqB5wW2KNqFO7k83kjkINKRdFJRl8nLzFLQbY+Jrvvx2TM+zB/A2mIp1TBV4UBkFqHYD5t4HaiumowqAhGjR460nFPsu97V/VCqsBcvYHoiPogrKhr6EoTzbtolJIELAU9PhgGfvklr7mmKAypyYBhCYdOCKN0MpXyJFPg1Z6kkxBq2090SBUkH2i7D8aoAoz+H/p2djtQqAXTIDbRALjP3R1lIOxGVBRHPQgX9BDb0Sjw7e6+P58PgoDvRtOY3IbdqAck8UmgWniSCuajgZTFs6tDrgyKc0ol0QgE3r9Rdza/XePAjVssBdAqiK1ks7q9oxgtCI2eXQeijSDWqUIgCrlmMQfzFE3QciDpiWfXUAj4tnEcNBSiEFDN6K4BczJa0J1cdWFJ7kD5AYVMIGqsNavNaLJZC+4WIDMpM4Zgkl4NOv/Lf/7zn18g2UC/QMBw/Iuib/B5dtQaMQjD5m7qiQVFMFB744En4FODvuovvzST2zUL0gveIa1fqiC4CkEUH9i/AlTHwZonEPD4aiBSNahtoIIpAHC4293ZQfcJKgV/0L0DU8k3ODTScVHxXtFaM4+MVuHxJkRZLRoEyiyFZAFNKXgUvdp2FRwtYAI+JTx8GC+gSE0cDWtYD6KPUIPJR72WYkRR7NFDGPMaGBXilDI7ZVCKZ3h1p9jRN1MKOEvBp1S69AdWNjtBHOSAjyYMg9tK4UfjilouZAq9BHqGnU7laEAXglUjvpeWi75kNRpIW5Zov+uR9/HhADY+oNS5nALKm+K5OexdQYhQZaKdhl6rgVJCDT2tEsGdAnFpyrUHC6ifpBXTD86SDtBOE+SOpQuOkte51WFPxRNtH0tpROzQRoQngEMnt/QzBVM/qHDBIBZUm55Kc6pAkdZCeQjlPtDrkirJmO41cX5WmrpQG8ZKwwrTThkDd3d2sf1CezA7yiMKg2j7LVwvDLmfn6JR6MoWbT1xlj5CesL22Ju5wAILLLDAAgsssMACC+gG/w/nYe6ruWH1OQAAAABJRU5ErkJggg==" height="150px" width="150px">
+                        <p>Whether it’s a late-night craving or a sweet surprise for someone special, we’ll bring
+                            freshly scooped goodness straight to your doorstep – fast, fresh, and frozen to perfection.
+                        </p>
+                        <button>Enter your address <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div>
+                        <h2>Catering</h2>
+                        <h3>Sweeten Your Event – Ice Cream Catering</h3>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRarWL_sKUnpqFsDUbNF_Jri534wxKV2WCsEQ&s" height="150px" width="150px">
+                        <p>Whether it's a birthday party, wedding, corporate event, or any celebration, we provide
+                            custom ice cream bars, sundae stations, or full-service catering to keep your guests
+                            delighted. </p>
+                        <button>Tell us about your event <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <h1><span>About</span> Us</h1>
+            <div class="box-container about-box">
+                <div class="box image">
+                    <img src="https://parade.com/.image/t_share/MTkwODk1ODQ4MzgzNTg3OTI1/taiyaki-nyc.jpg" alt="">
+                </div>
+                <div class="box text">
+                    <h2>Get The Cool Down With Our Creamy Creations!</h2>
+                    <p>We at IcyCo, We're more than just a company – we're a community driven by a shared vision and commitment to excellence. 
+                        We're excited to continue and expand our business all while staying true to our roots and the values that define us.
+                        Come visit us and let’s create sweet memories together!</p>
+                    <ul>
+                        <li>
+                            <div class="feature-icon"><i class="fa fa-list-alt" aria-hidden="true"></i></div>
+                            <span><span>Range of flavours</span> from our parlour for <span>Dine-in</span> and
+                                <span>Take-out</span> options</span>
+                        </li>
+                        <li>
+                        <li>
+                            <div class="feature-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                            <span>Manufactured under <span>strict hygiene</span> and <span>food safety
+                                    conditions</span></span>
+                        </li>
+                        <li>
+                        <li>
+                            <div class="feature-icon"><i class="fa fa-snowflake-o" aria-hidden="true"></i></div>
+                            <span><span>Best quality ingredients</span> from globally and locally recognized
+                                suppliers</span>
+                        </li>
+                        <li>
+                        <li>
+                            <div class="feature-icon"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
+                            <span>A welcoming space for families, offering a fun and <span>friendly atmosphere</span>
+                                for all ages.</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Products -->
+        <section class="products" id="products">
+            <h1>Our <span>Products</span></h1>
+            <div class="categories-wrapper">
+                <!-- <button class="active" id="all">All</button> -->
+            </div>
+            <div class="box-container products-box">
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <h1><span>Contact</span> Us</h1>
+            <form action="#" novalidate class="box-container" id="contact-form">
+                <div class="row">
+                    <div class="input-box">
+                        <label for="fname">Your First Name</label><br>
+                        <input type="text" id="fname"
+                            oninput="this.parentElement.querySelector('small').textContent = ''">
+                        <small class="error" style="color: rgb(255, 0, 0);"></small>
+                    </div>
+                    <div class="input-box">
+                        <label for="lname">Your Last Name</label><br>
+                        <input type="text" id="lname"
+                            oninput="this.parentElement.querySelector('small').textContent = ''">
+                        <small class="error" style="color: rgb(255, 0, 0);"></small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-box">
+                        <label for="email">Your Email</label><br>
+                        <input type="email" id="email"
+                            oninput="this.parentElement.querySelector('small').textContent = ''">
+                        <small class="error" style="color: rgb(255, 0, 0);"></small>
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Your Contact Number</label><br>
+                        <input type="tel" id="phone"
+                            oninput="this.parentElement.querySelector('small').textContent = ''">
+                        <small class="error" style="color: rgb(255, 0, 0);"></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-box">
+                        <label for="message">Your Message</label><br>
+                        <textarea name="" id="message" cols="30" rows="10"
+                            oninput="this.parentElement.querySelector('small').textContent = ''"></textarea>
+                        <small class="error" style="color: rgb(255, 0, 0);"></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+
+        <!-- footer -->
+        <section class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Useful links</h4>
+                    <ul class="links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Opening Hours</h4>
+                    <ul class="links">
+                        <li><a href="#">Mon-Sat : 9.00 AM to 9.30 PM</a></li>
+                        <li><a href="#">Sunday : 9.00 AM to 3.00 PM</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Need Help?</h4>
+                    <ul class="links">
+                        <li><a href="" class="social"><i class="fa-solid fa-phone"></i> +91 90904500112</a></li>
+                        <li><a href="" class="social"><i class="fa-solid fa-phone"></i> +91 90904500112</a></li>
+                        <li><a href="" class="social"><i class="fa-solid fa-envelope"></i> mail@1234567.com</a></li>
+                    </ul>
+                    <h4 style="margin-top: 15px;">Follow Us</h4>
+                    <ul class="links">
+                        <li><a href="#" class="social"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#" class="social"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#" class="social"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+      <!-----scroll bottom to top------->
+      <button class="scroll-button">
+        <img src="images/icecream-cone.png" alt="icecream-cone" />
+      </button>
+
+        <!-- copyright -->
+        <div class="copyright">
+            &copy; | @2025 by <span>Nithyashree V</span> | All Rights Deserved
+        </div>
+
+    </div>
+
+    <script src="script/swiper-bundle.min.js"></script>
+    <script src="script/reviews.js"></script>
+    <script src="script/form.js"></script>
+    <script type="module" src="script/products.js"></script>
+    <script type="module" src="script/nav.js"></script>
+    <script type="module" src="script/cart.js"></script>
+    <script src="script/FAQ.js"></script>
+</body>
+
+</html>
